@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+body{
+    background-color: #e2ebf0;
+}
+.to_to_list_block {
+    display: flex;
+    margin: 200px auto;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #c5e0e8;
+    padding: 6px 9px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+li.checked {
+    color: #000;
+    text-decoration: line-through;
+}
+.input_box{
+    position: relative;
+}
+input {
+    padding: 3px 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #000;
+    outline: none;
+    height: 40px;
+    width: 335px;
+}
+span{
+    cursor: pointer;
+}
+button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #3091c7;
+    border-radius: 29px;
+    padding: 2px 30px;
+    background: #3091c7;
+    color: #fff;
+    height: 40px;
+}
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
